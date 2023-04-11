@@ -26,7 +26,7 @@ namespace Smc.Infra.Data.Repository
 
         public User Login(string username, string password)
         {
-            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where username = @username and password = @password", new { username, password });
+            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where EMAIL = @username and PASSWORD = @password", new { username, password });
         }
 
         public  IEnumerable<User> GetAll()
@@ -34,19 +34,20 @@ namespace Smc.Infra.Data.Repository
             return Query<User>("SELECT * FROM [Users]", null);
         }
 
-        public void Add(User User)
+        public void Add(User user)
         {
-            Execute("INSERT INTO [Notifications] VALUES(NEWID(), 'Title', 'URL', GETDATE())", null);
+            Execute("INSERT INTO [Users] VALUES(@Name, @Email, @BirthDate, @Password)", user);
         }
 
-        public void Update(User User)
+
+        public void Update(User user)
         {
-            Execute("INSERT INTO [Notifications] VALUES(NEWID(), 'Title', 'URL', GETDATE())", null);
+            Execute("UPDATE [USERS] SET NAME= @Name, EMAIL=@Email, BIRTHDATE = @BirthDate WHERE ID = @Id)", user);
         }
 
-        public void Remove(User User)
+        public void Remove(User user)
         {
-            Execute("INSERT INTO [Notifications] VALUES(NEWID(), 'Title', 'URL', GETDATE())", null);
+            Execute("DELETE FROM [Users] WHERE ID = @Id", new { Id = user.Id });
         }
 
         public void Dispose()

@@ -59,6 +59,9 @@ namespace Smc.Services.Api
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            app.UseAuthorization();
+
             app.UseCors(c =>
             {
                 c.AllowAnyHeader();
@@ -72,8 +75,7 @@ namespace Smc.Services.Api
                 endpoints.MapControllers();
             });
 
-            app.UseAuthentication();
-            app.UseAuthorization();
+           
 
             app.UseSwaggerSetup();
         }

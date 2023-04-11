@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using Smc.Domain.Interfaces;
 using Smc.Domain.Models;
 using Smc.Infra.Data.Session;

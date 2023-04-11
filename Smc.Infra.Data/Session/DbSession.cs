@@ -1,7 +1,7 @@
 ﻿using System;
-using Microsoft.Data.SqlClient;
 using static Dapper.SqlMapper;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace Smc.Infra.Data.Session
 {

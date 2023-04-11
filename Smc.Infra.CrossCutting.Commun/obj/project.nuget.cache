@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+yYmwshETWkY8qZJ+mPFK+VHUz71MCWeQ6OHOLNFnJI5KH1KmxQBsTxXS047jsKwhJnwxfjfjGaf+t4x1DCXNA==",
+  "dgSpecHash": "n2gSuUQs07/nmGYn+b3+dwGLtLBrB956aTNvdxR+PalLu3dajITLvWEUO3kpYCyWFTYUVc3wH6twgJXAu1kGCA==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Infra.CrossCutting.Commun\\Smc.Infra.CrossCutting.Commun.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

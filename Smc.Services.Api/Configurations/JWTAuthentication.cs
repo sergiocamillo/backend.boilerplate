@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using NetDevPack.Identity.Jwt;
 using Smc.Domain.Models;
 
 namespace Smc.Services.Api.Configurations
@@ -19,8 +18,8 @@ namespace Smc.Services.Api.Configurations
 
             // JWT Setup
             var appSettingsSection = configuration.GetSection("AppSettings");
-            services.Configure<AppJwtSettings>(appSettingsSection);
-            var appSettings = appSettingsSection.Get<AppJwtSettings>();
+            services.Configure<AppSettings>(appSettingsSection);
+            var appSettings = appSettingsSection.Get<AppSettings>();
             var key = Encoding.ASCII.GetBytes(appSettings.SecretKey);
 
             services.AddAuthentication(options =>

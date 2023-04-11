@@ -7,12 +7,10 @@ using Smc.Application.Interfaces;
 using Smc.Domain.Interfaces;
 using Smc.Application.ViewModels;
 using Smc.Domain.Commands;
-using NetDevPack.Identity.Model;
 using Smc.Application.Password;
 using System.Linq;
 using Smc.Domain.Models;
 using Smc.Domain.Commands.Validations;
-using Microsoft.AspNetCore.Components.Forms;
 using System.ComponentModel.DataAnnotations;
 using Smc.Infra.CrossCutting.Commun.Exceptions;
 
@@ -39,7 +37,7 @@ namespace Smc.Application.Services
             return _mapper.Map<UserViewModel>(_userRepository.GetById(id));
         }
 
-        public UserViewModel Login(LoginUser loginUser)
+        public UserViewModel Login(LoginUserViewModel loginUser)
         {
             loginUser.Password = PasswordEncription.Provider.EncriptPassword(loginUser.Password, ""); //TODO include pwd salt for the application
 

@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {}
+    "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\Smc.Domain.csproj": {}
   },
   "projects": {
-    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+    "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\Smc.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\Smc.Domain.csproj",
         "projectName": "Smc.Domain",
-        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
-        "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\Smc.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,10 +54,6 @@
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
-            },
-            "System.Security.Claims": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -61,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

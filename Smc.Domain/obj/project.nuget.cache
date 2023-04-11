@@ -1,26 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1P0pFovpDv7zSF3eFLz+O+rq8+PmYuxZ7sTjxra8dg1spaLRrsAnoGhWLXbct7S73xs/56l9DRZZwzJln3pwzg==",
+  "dgSpecHash": "399Td9vhKA4Kf2dcwp0HtklPFxOBW/nkPDixecoxkvs8AiB3xq+UnBiSKF+FGXPhkLYkrF8U1CrdpFx8Kj9Lsg==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Projetos\\backend.boilerplate\\Smc.Domain\\Smc.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/3xsolutions/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.security.claims/4.3.0/system.security.claims.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.security.principal/4.3.0/system.security.principal.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

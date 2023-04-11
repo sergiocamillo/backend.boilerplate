@@ -5,7 +5,6 @@ using Smc.Application.Interfaces;
 using Smc.Application.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NetDevPack.Identity.Authorization;
 
 namespace Smc.Services.Api.Controllers
 {
@@ -49,7 +48,6 @@ namespace Smc.Services.Api.Controllers
             throw new NotImplementedException();
         }
 
-        [CustomAuthorize("Users", "Remove")]
         [HttpDelete("User-management")]
         public IActionResult Delete(int id)
         {

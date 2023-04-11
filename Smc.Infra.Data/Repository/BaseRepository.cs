@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Dapper;
-using Microsoft.AspNetCore.Http;
 using Smc.Infra.Data.Session;
 
 namespace Smc.Infra.Data.Repository

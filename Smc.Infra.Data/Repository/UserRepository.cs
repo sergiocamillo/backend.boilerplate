@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Smc.Domain.Interfaces;
 using Smc.Domain.Models;
-using Microsoft.EntityFrameworkCore;
 using Smc.Infra.Data.Session;
 using Dapper;
 using System.Linq;

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Text;
@@ -9,11 +8,11 @@ using Smc.Application.ViewModels;
 using Smc.Infra.CrossCutting.Commun.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using NetDevPack.Identity.Jwt;
-using NetDevPack.Identity.Model;
 using Smc.Domain.Models;
 using Smc.Application.Services;
+using Smc.Services.Api.Configurations;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Smc.Services.Api.Controllers
 {
@@ -21,11 +20,11 @@ namespace Smc.Services.Api.Controllers
     [ApiController]
     public class AccountController : ApiController
     {
-        private readonly AppJwtSettings _appJwtSettings;
+        private readonly AppSettings _appJwtSettings;
         private readonly IUserAppService _userAppService;
         
         public AccountController(
-            IOptions<AppJwtSettings> appJwtSettings,
+            IOptions<AppSettings> appJwtSettings,
             IUserAppService userAppService)
         {
             _appJwtSettings = appJwtSettings.Value;
@@ -35,7 +34,7 @@ namespace Smc.Services.Api.Controllers
 
         [HttpPost]
         [Route("login")]
-        public IActionResult Login(LoginUser loginUser)
+        public IActionResult Login(LoginUserViewModel loginUser)
         {
             try
             {

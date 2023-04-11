@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using NetDevPack.Identity.Model;
 using Smc.Application.ViewModels;
 
 namespace Smc.Application.Interfaces
@@ -11,7 +10,7 @@ namespace Smc.Application.Interfaces
     {
         IEnumerable<UserViewModel> GetAll();
         UserViewModel GetById(int id);
-        UserViewModel Login(LoginUser loginUser);
+        UserViewModel Login(LoginUserViewModel loginUser);
         ValidationResult Register(UserViewModel UserViewModel);
         //ValidationResult Update(UserViewModel UserViewModel);
         //ValidationResult Remove(int id);

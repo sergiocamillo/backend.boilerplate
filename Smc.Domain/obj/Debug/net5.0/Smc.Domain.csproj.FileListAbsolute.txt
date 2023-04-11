@@ -1,0 +1,12 @@
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/bin/Debug/net5.0/Smc.Domain.deps.json
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/bin/Debug/net5.0/Smc.Domain.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/bin/Debug/net5.0/ref/Smc.Domain.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/bin/Debug/net5.0/Smc.Domain.pdb
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.AssemblyInfoInputs.cache
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.AssemblyInfo.cs
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.csproj.CoreCompileInputs.cache
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/ref/Smc.Domain.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.pdb
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/Debug/net5.0/Smc.Domain.csproj.AssemblyReference.cache

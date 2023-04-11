@@ -1,0 +1,12 @@
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/bin/Debug/net5.0/Smc.Infra.CrossCutting.Commun.deps.json
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/bin/Debug/net5.0/Smc.Infra.CrossCutting.Commun.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/bin/Debug/net5.0/ref/Smc.Infra.CrossCutting.Commun.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/bin/Debug/net5.0/Smc.Infra.CrossCutting.Commun.pdb
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.csproj.AssemblyReference.cache
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.GeneratedMSBuildEditorConfig.editorconfig
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.AssemblyInfoInputs.cache
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.AssemblyInfo.cs
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.csproj.CoreCompileInputs.cache
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/ref/Smc.Infra.CrossCutting.Commun.dll
+/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/Debug/net5.0/Smc.Infra.CrossCutting.Commun.pdb

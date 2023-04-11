@@ -21,7 +21,7 @@ namespace Smc.Infra.Data.Repository
 
         public User GetById(int id)
         {
-            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where id = ", null);
+            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where id = @id", new { id });
         }
 
         public User Login(string username, string password)

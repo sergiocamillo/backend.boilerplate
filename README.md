@@ -8,7 +8,7 @@ Please check if you have installed the same runtime version (SDK) described in g
 The latest SDK and tools can be downloaded from https://dot.net/core.
 
 ## Technologies:
-- ASP.NET 5.0
+- NET 5.0
 - ASP.NET WebApi Core with JWT Bearer Authentication
 - Dapper
 - .NET Core Native DI

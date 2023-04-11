@@ -1,5 +1,5 @@
 # Template Project - SMC (sergiocamillo.com.br)
-Template for projects .net 5
+Template for projects .net 6
 
 ## Getting Started:
 
@@ -8,7 +8,7 @@ Please check if you have installed the same runtime version (SDK) described in g
 The latest SDK and tools can be downloaded from https://dot.net/core.
 
 ## Technologies:
-- NET 5.0
+- NET 6.0
 - ASP.NET WebApi Core with JWT Bearer Authentication
 - Dapper
 - .NET Core Native DI

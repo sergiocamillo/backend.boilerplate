@@ -1,5 +1,5 @@
 # Template Project - SMC (sergiocamillo.com.br)
-Template for projects .net 6
+Template for projects .NET 6
 
 ## Getting Started:
 
@@ -24,5 +24,5 @@ The latest SDK and tools can be downloaded from https://dot.net/core.
 - Repository
 
 ## Updates History:
-Comming Soon
+11/04/2023 - Update to .NET 6
 

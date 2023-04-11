@@ -35,24 +35,28 @@ namespace Smc.Services.Api.Controllers
 
         [AllowAnonymous]
         [HttpPost("User-management")]
-        public async Task<IActionResult> Post(UserViewModel UserViewModel)
+        public IActionResult Post(UserViewModel UserViewModel)
         {
             return CustomResponse(_UserAppService.Register(UserViewModel));
         }
 
-        //[AllowAnonymous]
-        //[HttpPut("User-management")]
-        //public async Task<IActionResult> Put([FromBody] UserViewModel UserViewModel)
-        //{
-        //    return CustomResponse( _UserAppService.Update(UserViewModel));
-        //}
+        [AllowAnonymous]
+        [HttpPut("User-management")]
+        public IActionResult Put([FromBody] UserViewModel UserViewModel)
+        {
+            //return CustomResponse(_UserAppService.Update(UserViewModel));
 
-        //[CustomAuthorize("Users", "Remove")]
-        //[HttpDelete("User-management")]
-        //public async Task<IActionResult> Delete(int id)
-        //{
-        //    return CustomResponse( _UserAppService.Remove(id));
-        //}
+            throw new NotImplementedException();
+        }
+
+        [CustomAuthorize("Users", "Remove")]
+        [HttpDelete("User-management")]
+        public IActionResult Delete(int id)
+        {
+            //return CustomResponse(_UserAppService.Remove(id));
+            throw new NotImplementedException();
+
+        }
 
     }
 }

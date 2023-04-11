@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qn6FVpFPkv5kudoI34qVVBmP2HfHSJMU9J1gqRQLXkbZeXRnkV3zIUgToBkTNiZK8xQp0ILxiX6/qxeUM1QYjw==",
+  "dgSpecHash": "ZzYva1oKRZORD4d0qmkFQ/hKjEGSVfCS9r2oAujb8IoFtcq09Eu+GN+iYAdXBZKY3/Fg+85yhWW0e/TzJYXv6g==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj",
+  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj",
   "expectedPackageFiles": [
     "/Users/3xsolutions/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
@@ -110,9 +110,7 @@
     "/Users/3xsolutions/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

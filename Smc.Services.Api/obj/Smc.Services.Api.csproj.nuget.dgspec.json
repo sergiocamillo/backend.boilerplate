@@ -1,39 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Services.Api/Smc.Services.Api.csproj": {}
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Services.Api/Smc.Services.Api.csproj": {}
   },
   "projects": {
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj",
         "projectName": "Smc.Application",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj"
               }
             }
           }
@@ -45,8 +45,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -63,16 +63,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -82,27 +72,27 @@
         }
       }
     },
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
         "projectName": "Smc.Domain",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -113,8 +103,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -143,16 +133,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -162,27 +142,27 @@
         }
       }
     },
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
         "projectName": "Smc.Infra.CrossCutting.Commun",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -193,8 +173,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -205,16 +185,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -224,33 +194,33 @@
         }
       }
     },
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
         "projectName": "Smc.Infra.CrossCutting.IoC",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj"
               }
             }
           }
@@ -262,8 +232,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -274,16 +244,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -293,30 +253,30 @@
         }
       }
     },
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj",
         "projectName": "Smc.Infra.Data",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj"
               }
             }
           }
@@ -328,8 +288,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -368,16 +328,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -387,39 +337,39 @@
         }
       }
     },
-    "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Services.Api/Smc.Services.Api.csproj": {
+    "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Services.Api/Smc.Services.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Services.Api/Smc.Services.Api.csproj",
+        "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Services.Api/Smc.Services.Api.csproj",
         "projectName": "Smc.Services.Api",
-        "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Services.Api/Smc.Services.Api.csproj",
+        "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Services.Api/Smc.Services.Api.csproj",
         "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-        "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Services.Api/obj/",
+        "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Services.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj"
               },
-              "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj": {
-                "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj"
+              "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -431,8 +381,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -483,20 +433,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.12, 5.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yHDP4QJevQ43Br5KoE1oulc+T9HGv7kq1yQjOA+9bdO7UWZPWOLMdz6V62U/n91cYCvqtkyyXx0N8PQnpKBX9A==",
+  "dgSpecHash": "1P0pFovpDv7zSF3eFLz+O+rq8+PmYuxZ7sTjxra8dg1spaLRrsAnoGhWLXbct7S73xs/56l9DRZZwzJln3pwzg==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj",
+  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/3xsolutions/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -20,9 +20,7 @@
     "/Users/3xsolutions/.nuget/packages/system.security.claims/4.3.0/system.security.claims.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.security.principal/4.3.0/system.security.principal.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/3xsolutions/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

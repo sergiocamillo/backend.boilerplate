@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjmIjctSqpceuKeluJaQyQQcqSTpCo84zYH1LlM7dG/BsvdSGoZz0J1kkBmU5sXq20tkhxkzbV2Cy0NWLXiCbg==",
+  "dgSpecHash": "Qt/Z8l8A2c+zBXbLMrpQAVxzU0tknmoM2xaxgJC1Jl4W/JbnbkfHmDBhaDJ+pvAEcREYegnmIycDM2seDgCYqw==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Application/Smc.Application.csproj",
+  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Application/Smc.Application.csproj",
   "expectedPackageFiles": [
     "/Users/3xsolutions/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
@@ -108,9 +108,7 @@
     "/Users/3xsolutions/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

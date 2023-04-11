@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0b6IGUFS14RFYPwqFSZ4G6Dkv5chX6YlfmWjDrkM0xZ7kLggMD3GoFiCOQzBWNQPIFUJNNwKzAvrvMcQqsa7g==",
+  "dgSpecHash": "+yYmwshETWkY8qZJ+mPFK+VHUz71MCWeQ6OHOLNFnJI5KH1KmxQBsTxXS047jsKwhJnwxfjfjGaf+t4x1DCXNA==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
-  "expectedPackageFiles": [
-    "/Users/3xsolutions/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.Commun/Smc.Infra.CrossCutting.Commun.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

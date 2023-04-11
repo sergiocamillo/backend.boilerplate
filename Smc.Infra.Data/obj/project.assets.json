@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -18,12 +18,12 @@
       "FluentValidation/11.5.1": {
         "type": "package",
         "compile": {
-          "lib/net5.0/FluentValidation.dll": {
+          "lib/net6.0/FluentValidation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/FluentValidation.dll": {
+          "lib/net6.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -736,12 +736,12 @@
       "Newtonsoft.Json/13.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -1887,7 +1887,7 @@
       },
       "Smc.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluentValidation": "11.5.1",
           "System.ComponentModel": "4.3.0",
@@ -6235,7 +6235,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Dapper >= 2.0.123",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
@@ -6251,27 +6251,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj",
+      "projectUniqueName": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj",
       "projectName": "Smc.Infra.Data",
-      "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/Smc.Infra.Data.csproj",
+      "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/Smc.Infra.Data.csproj",
       "packagesPath": "/Users/3xsolutions/.nuget/packages/",
-      "outputPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.Data/obj/",
+      "outputPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/3xsolutions/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj": {
-              "projectPath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Domain/Smc.Domain.csproj"
+            "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj": {
+              "projectPath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Domain/Smc.Domain.csproj"
             }
           }
         }
@@ -6283,8 +6283,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -6323,16 +6323,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

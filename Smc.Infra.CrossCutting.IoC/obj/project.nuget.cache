@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YomilFRHq8Ty6BSTDyL5oETugpxlnI1o6OhV9ZBXhS9rVYRsC0kkJgqM1H9cXXIT4E0WOBa68LVpJTKGhwOVUg==",
+  "dgSpecHash": "++x39jlIM+Da94x1pSB5VFj7tJdsFPrzKK8CdYSwfskhbr4kCCix26z2DDYqYIHscRdZSzzoUX/Go6ioB074RA==",
   "success": true,
-  "projectFilePath": "/Users/3xsolutions/Downloads/boilerplate.project/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "/Users/3xsolutions/Projetos/boilerplate.smc/Smc.Infra.CrossCutting.IoC/Smc.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "/Users/3xsolutions/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
@@ -108,9 +108,7 @@
     "/Users/3xsolutions/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/3xsolutions/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/3xsolutions/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/3xsolutions/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -27,6 +27,7 @@ The latest SDK and tools can be downloaded from https://dot.net/core.
 ## Next Updates
 - Layer resposability for Unit tests using xUnit
 - Docker
+- Log4Net
 
 ## Updates History:
 11/04/2023 - Update to .NET 6

@@ -8,7 +8,7 @@ namespace Smc.Domain.Interfaces
     public interface IUserRepository 
     {
 
-        User GetById(int id);
+        User GetById(Guid id);
 
         IEnumerable<User> GetAll();
 
@@ -18,7 +18,7 @@ namespace Smc.Domain.Interfaces
 
         void Update(User User);
 
-        void Remove(User User);
+        void Remove(Guid Id);
        
     }
 }

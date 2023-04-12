@@ -36,7 +36,7 @@ namespace Smc.Application.Services
             return _mapper.Map<IEnumerable<UserViewModel>>(_userRepository.GetAll());
         }
 
-        public UserViewModel GetById(int id)
+        public UserViewModel GetById(Guid id)
         {
             return _mapper.Map<UserViewModel>(_userRepository.GetById(id));
         }
@@ -76,23 +76,43 @@ namespace Smc.Application.Services
             }
             catch (Exception ex)
             {
-                _unitOfWork.Rollback();
-
                 throw;
             }
          
         }
 
-        //public async Task<ValidationResult> Update(UserViewModel customerViewModel)
-        //{
-        //    var updateCommand = _mapper.Map<UpdateUserCommand>(customerViewModel);
-        //}
+        public ValidationResult Update(UserViewModel userViewModel)
+        {
+            User user = _mapper.Map<User>(userViewModel);
 
-        //public async Task<ValidationResult> Remove(int id)
-        //{
-        //    var removeCommand = new RemoveUserCommand(id);
-        //    return await _mediator.SendCommand(removeCommand);
-        //}
+            var userValidation = new UpdateUserValidation();
+            var validationResult = userValidation.Validate(user);
+
+            if (validationResult.IsValid)
+            {
+                user.Password = PasswordEncription.Provider.EncriptPassword(user.Password, ""); //TODO include pwd salt for the application
+
+                _userRepository.Update(user);
+            }
+
+            return validationResult;
+        }
+
+        public ValidationResult Remove(Guid id)
+        {
+            var userValidation = new RemoveUserValidation();
+            User user = new User(id, string.Empty, string.Empty, DateTime.Now, Guid.Empty);
+
+            var validationResult = userValidation.Validate(user);
+
+            if (validationResult.IsValid)
+            {
+                _userRepository.Remove(id);
+            }
+
+            return validationResult;
+
+        }
 
 
         public void Dispose()

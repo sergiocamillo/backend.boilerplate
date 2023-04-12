@@ -30,13 +30,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Database", "0 - Databas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{497CC766-4E0A-41D7-99E3-7701E53310E0}"
 	ProjectSection(SolutionItems) = preProject
-		Database\DML\Profiles.Insert.sql = Database\DML\Profiles.Insert.sql
+		Database\DML\0001 - Profiles.Insert.sql = Database\DML\0001 - Profiles.Insert.sql
+		Database\DML\0002 - Users.Insert.sql = Database\DML\0002 - Users.Insert.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{AE878466-BB01-4926-A3AB-0EE316B2E790}"
 	ProjectSection(SolutionItems) = preProject
-		Database\DDL\Profiles.Create.Table.sql = Database\DDL\Profiles.Create.Table.sql
-		Database\DDL\Users.Create.Table.sql = Database\DDL\Users.Create.Table.sql
+		Database\DDL\0001 - Profiles.Create.Table.sql = Database\DDL\0001 - Profiles.Create.Table.sql
+		Database\DDL\0002 - Users.Create.Table.sql = Database\DDL\0002 - Users.Create.Table.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedures", "StoredProcedures", "{6DEBFE0F-6960-4418-9F95-2E574DB12BBC}"

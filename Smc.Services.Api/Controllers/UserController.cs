@@ -19,40 +19,37 @@ namespace Smc.Services.Api.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("User-management")]
+        [HttpGet("Users")]
         public IEnumerable<UserViewModel> Get()
         {
             return _UserAppService.GetAll();
         }
 
         [AllowAnonymous]
-        [HttpGet("User-management/{id:guid}")]
-        public UserViewModel Get(int id)
+        [HttpGet("Users/{id:guid}")]
+        public UserViewModel Get(Guid id)
         {
             return  _UserAppService.GetById(id);
         }
 
         [AllowAnonymous]
-        [HttpPost("User-management")]
+        [HttpPost("Users")]
         public IActionResult Post(UserViewModel UserViewModel)
         {
             return CustomResponse(_UserAppService.Register(UserViewModel));
         }
 
         [AllowAnonymous]
-        [HttpPut("User-management")]
+        [HttpPut("Users")]
         public IActionResult Put([FromBody] UserViewModel UserViewModel)
         {
-            //return CustomResponse(_UserAppService.Update(UserViewModel));
-
-            throw new NotImplementedException();
+           return CustomResponse(_UserAppService.Update(UserViewModel));
         }
 
-        [HttpDelete("User-management")]
-        public IActionResult Delete(int id)
+        [HttpDelete("Users")]
+        public IActionResult Delete(Guid id)
         {
-            //return CustomResponse(_UserAppService.Remove(id));
-            throw new NotImplementedException();
+            return CustomResponse(_UserAppService.Remove(id));
 
         }
 

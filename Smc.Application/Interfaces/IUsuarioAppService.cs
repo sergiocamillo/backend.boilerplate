@@ -9,10 +9,10 @@ namespace Smc.Application.Interfaces
     public interface IUserAppService : IDisposable
     {
         IEnumerable<UserViewModel> GetAll();
-        UserViewModel GetById(int id);
+        UserViewModel GetById(Guid id);
         UserViewModel Login(LoginUserViewModel loginUser);
         ValidationResult Register(UserViewModel UserViewModel);
-        //ValidationResult Update(UserViewModel UserViewModel);
-        //ValidationResult Remove(int id);
+        ValidationResult Update(UserViewModel UserViewModel);
+        ValidationResult Remove(Guid id);
     }
 }

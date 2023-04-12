@@ -22,6 +22,10 @@ The latest SDK and tools can be downloaded from https://dot.net/core.
 - Domain Validations
 - Unit of Work
 - Repository
+- Unit Tests (xUnit) - Comming Soon
+
+## Next Updates
+- Layer resposability for Unit tests using xUnit
 
 ## Updates History:
 11/04/2023 - Update to .NET 6

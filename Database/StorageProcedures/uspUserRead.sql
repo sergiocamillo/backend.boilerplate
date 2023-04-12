@@ -11,7 +11,9 @@ GO
 CREATE PROCEDURE [dbo].[uspUserRead]
 	@Name varchar(256) = null,
 	@Email varchar(128) = null,
-	@ProfileId UNIQUEIDENTIFIER = null
+	@ProfileId UNIQUEIDENTIFIER = null,
+	@PageNumber INT = 1,
+	@RowsPerPage INT = 10
 AS
 BEGIN
 	SELECT 
@@ -28,4 +30,9 @@ BEGIN
 		(@Name IS NULL OR u.Name like '%' + @Name + '%') AND
 		(@Email IS NULL OR u.Email = @Email) AND
 		(@ProfileId IS NULL OR u.ProfileId = @ProfileId) 
+	ORDER BY U.Id
+        OFFSET (@PageNumber-1)*@RowsPerPage ROWS
+        FETCH NEXT @RowsPerPage ROWS ONLY
 END
+
+

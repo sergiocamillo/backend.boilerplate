@@ -19,17 +19,14 @@ namespace Smc.Infra.CrossCutting.IoC
         {
 
             // Application
-            services.AddScoped<IUserAppService, UserAppService>();
-            services.AddScoped<IPersonAppService, PersonAppService>();
+            services.AddTransient<IUserAppService, UserAppService>();
+            services.AddTransient<IPersonAppService, PersonAppService>();
 
             // Infra - Data
-            services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IPersonRepository, PersonRepository>();
 
-            services.AddScoped<IUserAppService, UserAppService>();
-
-            //services.AddScoped<DbSession>(cnn => configuration.GetConnectionString("DefaultConnection"));
-            services.AddScoped<DbSession>();
+            services.AddScoped(x => new DbSession(configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
         }

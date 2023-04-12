@@ -9,7 +9,7 @@ namespace Smc.Application.AutoMapper
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<UserViewModel, User>()
-                .ConstructUsing(c => new User(c.Id, c.Name, c.Email, c.BirthDate));
+                .ConstructUsing(c => new User(c.Id, c.Name, c.Email, c.BirthDate, c.ProfileId));
         }
     }
 }

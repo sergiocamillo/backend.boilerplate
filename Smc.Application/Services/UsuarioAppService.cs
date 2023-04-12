@@ -11,8 +11,9 @@ using Smc.Application.Password;
 using System.Linq;
 using Smc.Domain.Models;
 using Smc.Domain.Commands.Validations;
-using System.ComponentModel.DataAnnotations;
+using FluentValidation.Results;
 using Smc.Infra.CrossCutting.Commun.Exceptions;
+using Smc.Infra.Data;
 
 namespace Smc.Application.Services
 {
@@ -20,11 +21,14 @@ namespace Smc.Application.Services
     {
         private readonly IMapper _mapper;
         private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         public UserAppService(IMapper mapper,
-            IUserRepository userRepository)
+            IUserRepository userRepository,
+            IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _userRepository = userRepository;
+            _unitOfWork = unitOfWork;   
         }
 
         public IEnumerable<UserViewModel> GetAll()
@@ -39,11 +43,11 @@ namespace Smc.Application.Services
 
         public UserViewModel Login(LoginUserViewModel loginUser)
         {
-            loginUser.Password = PasswordEncription.Provider.EncriptPassword(loginUser.Password, ""); //TODO include pwd salt for the application
+            loginUser.Password = PasswordEncription.Provider.EncriptPassword(loginUser.Password, ""); //TODO need include pwd salt for the application
 
             User user = _userRepository.Login(loginUser.Email, loginUser.Password);
 
-            if (user != null || user == default) {
+            if (user == null || user == default) {
                 throw new RNException("User or password doesn't match!");
             }
 
@@ -52,19 +56,31 @@ namespace Smc.Application.Services
             return result;
         }
 
-        public FluentValidation.Results.ValidationResult Register(UserViewModel userViewModel)
+        public ValidationResult Register(UserViewModel userViewModel)
         {
-            User user = _mapper.Map<User>(userViewModel);
+            try
+            {
+                User user = _mapper.Map<User>(userViewModel);
 
-            var userValidation = new CreateUserValidation();
-            var validationResult = userValidation.Validate(user);
+                var userValidation = new CreateUserValidation();
+                var validationResult = userValidation.Validate(user);
 
-            if (validationResult.IsValid) {
-                user.Password = PasswordEncription.Provider.EncriptPassword(user.Password, ""); //TODO include pwd salt for the application
-                _userRepository.Add(user);
+                if (validationResult.IsValid)
+                {
+                    user.Password = PasswordEncription.Provider.EncriptPassword(user.Password, ""); //TODO include pwd salt for the application
+                
+                    _userRepository.Add(user);
+                }
+
+                return validationResult;
             }
+            catch (Exception ex)
+            {
+                _unitOfWork.Rollback();
 
-            return validationResult;
+                throw;
+            }
+         
         }
 
         //public async Task<ValidationResult> Update(UserViewModel customerViewModel)

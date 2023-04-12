@@ -6,6 +6,7 @@ using Smc.Domain.Models;
 using Smc.Infra.Data.Session;
 using Dapper;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Smc.Infra.Data.Repository 
 {
@@ -20,22 +21,22 @@ namespace Smc.Infra.Data.Repository
 
         public User GetById(int id)
         {
-            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where id = @id", new { id });
+            return QueryFirstOrDefault<User>("SELECT Id, Name, Email, BirthDate, ProfileId FROM [Users] where id = @id", new { id });
         }
 
         public User Login(string username, string password)
         {
-            return QueryFirstOrDefault<User>("SELECT * FROM [Users] where EMAIL = @username and PASSWORD = @password", new { username, password });
+            return QueryFirstOrDefault<User>("exec dbo.uspUserLogin @email, @password", new { email = username, password }) ;
         }
 
         public  IEnumerable<User> GetAll()
         {
-            return Query<User>("SELECT * FROM [Users]", null);
+            return Query<User>("exec uspUserRead", null);
         }
 
         public void Add(User user)
         {
-            Execute("INSERT INTO [Users] VALUES(@Name, @Email, @BirthDate, @Password)", user);
+           int result = Execute("exec dbo.uspUserCreate @Name, @Email, @Password, @ProfileId, @Birthdate", new { Name = user.Name, Email  = user.Email, Password = user.Password, ProfileId = user.Profile.Id, Birthdate = user.BirthDate });
         }
 
 

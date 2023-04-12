@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{73B0FEE2-110F-438D-87D8-B29E3182D4FE}"
 EndProject
@@ -25,7 +24,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smc.Application", "Smc.Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smc.Infra.CrossCutting.Commun", "Smc.Infra.CrossCutting.Commun\Smc.Infra.CrossCutting.Commun.csproj", "{F262875F-7DE1-4B14-A5F7-218912B2F10E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smc.Services.Api", "Smc.Services.Api\Smc.Services.Api.csproj", "{D04D70CD-6181-4A5F-A02D-950114D5F2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smc.Services.Api", "Smc.Services.Api\Smc.Services.Api.csproj", "{D04D70CD-6181-4A5F-A02D-950114D5F2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Database", "0 - Database", "{AD57A6C2-6FE9-4FBB-90BF-A24BE60BE5DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{497CC766-4E0A-41D7-99E3-7701E53310E0}"
+	ProjectSection(SolutionItems) = preProject
+		Database\DML\Profiles.Insert.sql = Database\DML\Profiles.Insert.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{AE878466-BB01-4926-A3AB-0EE316B2E790}"
+	ProjectSection(SolutionItems) = preProject
+		Database\DDL\Profiles.Create.Table.sql = Database\DDL\Profiles.Create.Table.sql
+		Database\DDL\Users.Create.Table.sql = Database\DDL\Users.Create.Table.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedures", "StoredProcedures", "{6DEBFE0F-6960-4418-9F95-2E574DB12BBC}"
+	ProjectSection(SolutionItems) = preProject
+		Database\StorageProcedures\uspCreateUser.sql = Database\StorageProcedures\uspCreateUser.sql
+		Database\StorageProcedures\uspUserLogin.sql = Database\StorageProcedures\uspUserLogin.sql
+		Database\StorageProcedures\uspUserRead.sql = Database\StorageProcedures\uspUserRead.sql
+		Database\StorageProcedures\uspUserUpdate.sql = Database\StorageProcedures\uspUserUpdate.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +90,9 @@ Global
 		{484CA029-E12C-47E7-9D1A-1D97A650256C} = {9FDD3CE1-7A80-4FE4-BB75-A3BA288C91B9}
 		{F262875F-7DE1-4B14-A5F7-218912B2F10E} = {77780253-4056-4FCB-A52F-9F2F17878A8C}
 		{D04D70CD-6181-4A5F-A02D-950114D5F2E9} = {D4E55066-5674-41A4-A34D-C011316504F1}
+		{497CC766-4E0A-41D7-99E3-7701E53310E0} = {AD57A6C2-6FE9-4FBB-90BF-A24BE60BE5DF}
+		{AE878466-BB01-4926-A3AB-0EE316B2E790} = {AD57A6C2-6FE9-4FBB-90BF-A24BE60BE5DF}
+		{6DEBFE0F-6960-4418-9F95-2E574DB12BBC} = {AD57A6C2-6FE9-4FBB-90BF-A24BE60BE5DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBF91986-48EB-49FB-B177-1AF7EFC0F1F1}
@@ -78,19 +101,16 @@ Global
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
-		$0.TextStylePolicy = $2
+		$0.TextStylePolicy = $6
 		$2.inheritsSet = null
 		$2.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $3
 		$3.scope = text/x-csharp
-		$0.TextStylePolicy = $4
 		$4.FileWidth = 80
 		$4.TabsToSpaces = True
 		$4.scope = text/plain
-		$0.TextStylePolicy = $5
 		$5.inheritsSet = null
 		$5.scope = text/x-json
-		$0.TextStylePolicy = $6
 		$6.inheritsSet = null
 		$6.scope = text/x-web
 	EndGlobalSection

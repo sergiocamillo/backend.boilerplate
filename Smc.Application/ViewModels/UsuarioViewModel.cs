@@ -7,7 +7,7 @@ namespace Smc.Application.ViewModels
     public class UserViewModel
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; }
 
@@ -16,5 +16,8 @@ namespace Smc.Application.ViewModels
         public DateTime BirthDate { get; set; }
 
         public string Password { get; set; }
+
+        public Guid ProfileId { get; set; }
+
     }
 }
